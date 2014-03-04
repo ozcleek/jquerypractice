@@ -26,46 +26,57 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+  <div class="container">
 
-        <div class="container">
-            <div class="header">
-                <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <h3 class="text-muted">jquerypractice</h3>
-            </div>
+      <!-- start form -->
+      <div id="questions">
+        <h1>Fill it out!</h1>
+        <hr>
+        <form role="form">
+          <div class="form-group">
+            <label for="person">Boy's Name</label>
+            <input for="person" class="form-control person" type="text" placeholder="Enter a boy's name ..">
+          </div>
+          <div class="form-group">
+            <label for="adjective">Adjective</label>
+            <input for="adjective" class="form-control adjective" type="text" placeholder="Enter an adjective ..">
+          </div>
+          <div class="form-group">
+            <label for="noun">Plural noun</label>
+            <input id="noun" class="form-control noun" type="text" placeholder="Enter a plural noun ..">
+          </div>
+          <div class="form-group">
+            <label for="insect">An insect, plural</label>
+            <input id="insect" class="form-control insect" type="text" placeholder="Enter an insect, plural ..">
+          </div>
+          <div class="form-group">
+            <label for="noun2">Plural noun</label>
+            <input id="noun2" class="form-control plural-noun" type="text" placeholder="Enter a plural noun ..">
+          </div>
+          <div class="form-group">
+            <label for="verb">A verb ending in "s"</label>
+            <input id="verb" class="form-control verb" type="text" placeholder="Enter a verb ending in "s" ..">
+          </div>
+          <div>
+          </div>
+        </form>
+        <button id="btn-click" type="submit" class="btn btn-danger btn-lg">Hit It</button>
+        <hr>
+      </div>
+      <!-- end form -->
 
-            <div class="jumbotron">
-                <h1>'Allo, 'Allo!</h1>
-                <p class="lead">Always a pleasure scaffolding your apps.</p>
-                <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-            </div>
+      <!-- start story -->
+      <div id="story">
+        <h1>Check It Out</h1>
+        <hr>
+        <h3>I think <span class="person"></span> is too cool for school. He's so <span class="adjective"></span>! His <span class="noun"></span> sucks, and I want to squash him like a <span class="insect"></span>. I get <span class="noun2"></span> so angry when he <span class="verb"></span>, and his breath really stinks. I hope <span class="person"></span> steps in dog turds. </h3>
+      </div>
+      <!-- end story -->
 
-            <div class="row marketing">
-                <div class="col-lg-6">
-                    <h4>HTML5 Boilerplate</h4>
-                    <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-
-                    <h4>Sass with Compass</h4>
-                    <p>Compass is an open-source CSS Authoring Framework that uses Sass.</p>
+    </div>
 
 
-                    <h4>Bootstrap</h4>
-                    <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
 
-                    <h4>Modernizr</h4>
-                    <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
-
-                </div>
-            </div>
-
-            <div class="footer">
-                <p>♥ from the Yeoman team</p>
-            </div>
-
-        </div>
 
 
         <!-- build:js scripts/vendor.js -->
